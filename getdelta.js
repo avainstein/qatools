@@ -94,8 +94,12 @@ function analyze() {
 			var name = info[i][k].name;
 			var value = info[i][k].value;
 			datum[name] = value;
+			if (output !== {} && value === '-- NONE --') { //only use -- NONE -- for the base dict, delete entries after that.
+				delete datum[name];						
+			}
 		}
 		info[i] = datum;
+
 		output = extend(output, info[i]);
 	}
 
