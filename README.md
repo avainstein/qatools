@@ -1,6 +1,6 @@
 Description
 ===========
-
+This script helps to Diff Build History of Jenkins jobs. It is especially helpful during Release when different versions of apps are getting constantly installed. You can take the first and last build job number: The script will merge all changes made over that build range and dispay the latest versions installed.
 
 
 Install Instructions
