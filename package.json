@@ -1,11 +1,22 @@
 {
   "name": "jenkins-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "homepage": "https://github.com/adewinter/qatools",
   "description": "Grabs build params from jenkins for the specified number of builds and merges info.",
   "main": "getdelta.js",
   "preferGlobal": "true",
   "bin": { "jenkinsinfo": "getdelta.js" },
-  "author": "Anton de Winter",
+  "author": {
+    "name" : "Anton de Winter",
+    "url": "http://adewinter.github.io/"
+  },
+  "contributors": {
+    "name": "Alex Vainstein"
+  },
+  "repository" : { 
+    "type": "git", 
+    "url": "http://github.com/adewinter/qatools"
+  },
   "license": "ISC",
   "dependencies": {
     "node.extend": "~1.1.3",
