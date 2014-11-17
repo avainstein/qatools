@@ -1,10 +1,10 @@
 {
-  "name": "get-build-info",
+  "name": "jenkins-info",
   "version": "0.0.1",
   "description": "Grabs build params from jenkins for the specified number of builds and merges info.",
   "main": "getdelta.js",
   "preferGlobal": "true",
-  "bin": { "getbuildinfo": "getdelta.js" },
+  "bin": { "jenkinsinfo": "getdelta.js" },
   "author": "Anton de Winter",
   "license": "ISC",
   "dependencies": {
