@@ -1,6 +1,6 @@
 {
   "name": "jenkins-info",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/adewinter/qatools",
   "description": "Grabs build params from jenkins for the specified number of builds and merges info.",
   "main": "getdelta.js",
