@@ -1,12 +1,11 @@
 {
-  "name": "qa-deploy-analysis",
+  "name": "get-build-info",
   "version": "0.0.1",
-  "description": "",
+  "description": "Grabs build params from jenkins for the specified number of builds and merges info.",
   "main": "getdelta.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "preferGlobal": "true",
+  "bin": { "getbuildinfo": "getdelta.js" },
+  "author": "Anton de Winter",
   "license": "ISC",
   "dependencies": {
     "node.extend": "~1.1.3",
